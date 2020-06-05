@@ -42,6 +42,10 @@ public class MainClass extends Application {
 		});
 
 		Scene scene = new Scene(root);
+		
+		String css = MainClass.class.getResource("style.css").toExternalForm(); 
+		scene.getStylesheets().add(css); 
+		
 		stage.setScene(scene);
 		stage.show();
 	}

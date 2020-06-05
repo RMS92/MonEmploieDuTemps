@@ -52,20 +52,20 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </MenuBar>
-            <Label fx:id="edtLabel" layoutX="10.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Emploi du temps">
+            <Label fx:id="edtLabel" layoutX="10.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../style.css" text="Emploi du temps">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Label>
-            <Label fx:id="recapLabel" layoutX="241.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Récapitulatifs des cours">
+            <Label fx:id="recapLabel" layoutX="241.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../style.css" text="Récapitulatifs des cours">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Label>
             <Label fx:id="numeroLabel" layoutX="336.0" layoutY="7.0" prefHeight="17.0" prefWidth="72.0" />
-            <Label fx:id="edtInverseLabel" layoutX="114.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Inversé">
+            <Label fx:id="edtInverseLabel" layoutX="114.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../style.css" text="Inversé">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Label>
-            <Label fx:id="edtGrilleLabel" layoutX="166.0" layoutY="64.0" onMouseClicked="#handleButtonAction" prefHeight="17.0" prefWidth="62.0" styleClass="liens" stylesheets="@../../../../../style.css" text="En colonne">
+            <Label fx:id="edtGrilleLabel" layoutX="166.0" layoutY="64.0" onMouseClicked="#handleButtonAction" prefHeight="17.0" prefWidth="62.0" styleClass="liens" stylesheets="@../../style.css" text="En colonne">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Label>
@@ -76,12 +76,12 @@
             <Label fx:id="groupeLabel" layoutX="418.0" layoutY="7.0" prefHeight="17.0" prefWidth="67.0" />
             <Label fx:id="promoLabel" layoutX="379.0" layoutY="7.0" prefHeight="17.0" prefWidth="54.0" />
             <Label layoutX="492.0" layoutY="7.0" text="Etudiant" textFill="RED" />
-            <Label fx:id="reportingLabel" layoutX="376.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Reporting">
+            <Label fx:id="reportingLabel" layoutX="376.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../style.css" text="Reporting">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Label>
-            <Button fx:id="seDeconnecter" layoutX="257.0" layoutY="33.0" mnemonicParsing="false" onMouseClicked="#seDeconnecter" prefHeight="25.0" prefWidth="98.0" styleClass="barre" stylesheets="@../../../../../style.css" text="Se déconnecter">
+            <Button fx:id="seDeconnecter" layoutX="257.0" layoutY="33.0" mnemonicParsing="false" onMouseClicked="#seDeconnecter" prefHeight="25.0" prefWidth="98.0" styleClass="barre" stylesheets="@../../style.css" text="Se déconnecter">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
