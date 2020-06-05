@@ -1,0 +1,15 @@
+.button{
+	-fx-background-color:  LIGHTGREY;
+	-fx-border-color:  NONE;
+}
+
+.barre:hover {
+	-fx-background-color: rgb(0,150,201);
+	-fx-text-fill : white;
+}
+
+.liens:hover {
+	-fx-background-color: rgb(0, 150, 201);
+	-fx-underline: true;
+	-fx-text-fill : white;
+}

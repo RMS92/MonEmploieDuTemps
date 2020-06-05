@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootPane" onMouseClicked="#handleButtonAction" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: WHITESMOKE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mon.edt.views.prof.LayoutsControler">
+   <top>
+      <Pane prefHeight="80.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="10.0" layoutY="7.0" text="Planning INSEEC U. PARIS 2019-2020" />
+            <Label fx:id="nomLabel" layoutX="214.0" layoutY="7.0" prefHeight="17.0" prefWidth="137.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutY="31.0" prefHeight="29.0" prefWidth="1200.0" style="-fx-background-color: LIGHTGREY; -fx-border-color: DARKGREY;" />
+            <MenuBar layoutX="-5.0" layoutY="32.0" prefHeight="0.0" prefWidth="275.0" style="-fx-background-color: LIGHTGREY;">
+              <menus>
+                <Menu mnemonicParsing="false" text="Cours">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#bouttonBarreEdt" text="&gt; Emploi du temps" />
+                        <MenuItem mnemonicParsing="false" onAction="#bouttonBarreRecap" text="&gt; Récapitulatifs des cours" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Vie scolaire">
+                  <items>
+                        <MenuItem mnemonicParsing="false" text="&gt; Liste d'intervenants" />
+                        <MenuItem mnemonicParsing="false" text="&gt; Scolarité" />
+                        <MenuItem mnemonicParsing="false" text="&gt; Calendrier Scolaire" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Promotions">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="&gt; Intervenants" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Salles">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="&gt; Emploi du temps" />
+                        <MenuItem mnemonicParsing="false" text="&gt; Salles libres" />
+                    </items>
+                  </Menu>
+              </menus>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </MenuBar>
+            <Label fx:id="edtLabel" layoutX="10.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Emploi du temps">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="recapLabel" layoutX="235.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Récapitulatifs des cours">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="edtInverseLabel" layoutX="113.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Inversé">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="edtGrilleLabel" layoutX="164.0" layoutY="64.0" onMouseClicked="#handleButtonAction" prefHeight="17.0" prefWidth="61.0" styleClass="liens" stylesheets="@../../../../../style.css" text="En colonne">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label layoutX="1041.0" layoutY="6.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: RED;" />
+            <Label layoutX="1074.0" layoutY="8.0" text="Cours annulé" />
+            <Label layoutX="1041.0" layoutY="35.0" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: GREEN;" />
+            <Label layoutX="1074.0" layoutY="37.0" text="En cours de validation" />
+            <Label layoutX="350.0" layoutY="7.0" text="Enseignant" textFill="RED" />
+            <Label fx:id="reportingLabel" layoutX="373.0" layoutY="64.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Reporting">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Button fx:id="seDeconnecter" layoutX="259.0" layoutY="32.0" mnemonicParsing="false" onMouseClicked="#seDeconnecter" styleClass="barre" stylesheets="@../../../../../style.css" text="Se déconnecter">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children>
+      </Pane>
+   </top>
+</BorderPane>

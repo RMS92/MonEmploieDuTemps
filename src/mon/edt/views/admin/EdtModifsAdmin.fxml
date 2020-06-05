@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootPane" prefHeight="570.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mon.edt.views.admin.EdtModifsControler">
+   <top>
+      <Pane prefHeight="35.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="modif1" layoutX="10.0" layoutY="7.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Affectation enseignant">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="modif2" layoutX="153.0" layoutY="7.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Changer l'état d'une seance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="modif3" layoutX="325.0" layoutY="7.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Ajout d'une séance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+            <Label fx:id="modif4" layoutX="452.0" layoutY="7.0" onMouseClicked="#handleButtonAction" styleClass="liens" stylesheets="@../../../../../style.css" text="Déplacer une séance">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Label>
+         </children>
+      </Pane>
+   </top>
+   <center>
+      <Pane prefHeight="535.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="3.0" layoutY="184.0" prefHeight="53.0" prefWidth="1195.0" text="Bienvenue dans votre espace de modifications admin !">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font></Label>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Pane>
+   </center>
+</BorderPane>

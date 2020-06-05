@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: WHITESMOKE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mon.edt.views.home.ConnectionControler">
+   <children>
+      <GridPane layoutX="70.0" layoutY="97.0" prefHeight="175.0" prefWidth="350.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="145.20001220703125" minWidth="10.0" prefWidth="92.4" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="247.99999999999997" minWidth="10.0" prefWidth="247.99999999999997" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="emailField" prefHeight="25.0" prefWidth="205.0" style="-fx-background-color: WHITESMOKE; -fx-border-color: LIGHTGREY;" GridPane.columnIndex="1">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="77.0" text="E-mail :" />
+            <Label prefWidth="170.0" text="Mot de passe :" GridPane.rowIndex="1" />
+            <Button fx:id="btnSignin" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefWidth="100.0" text="Se connecter" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <PasswordField fx:id="passwordField" style="-fx-background-color: WHITESMOKE; -fx-border-color: LIGHTGREY;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <Label fx:id="errorsLabel" prefHeight="17.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <Label layoutX="83.0" layoutY="14.0" prefHeight="27.0" prefWidth="324.0" text="Veuillez-vous connectez à votre compte">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
