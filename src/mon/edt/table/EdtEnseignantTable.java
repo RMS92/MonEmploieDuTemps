@@ -36,7 +36,7 @@ public class EdtEnseignantTable extends Table<EdtColonne> {
 		return null;
 	}
 
-	public ArrayList<Seance> findAll(int id, int semaine) {
+	public ArrayList<Seance> findAll(int id, int semaine) {  //méthode de recherche pour tt afficher 
 
 		u = new ArrayList<Seance>();
 
