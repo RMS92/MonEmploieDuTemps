@@ -110,7 +110,8 @@ public class EdtEnseignantTable extends Table<EdtColonne> {
 		return s;
 	}
 
-	public ArrayList<Seance> findSearchSalle(int semaine, String salle) {
+	public ArrayList<Seance> findSearchSalle(int semaine, String salle) { //recherche salle
+		
 
 		ss = new ArrayList<Seance>();
 
