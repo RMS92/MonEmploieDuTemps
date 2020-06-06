@@ -17,7 +17,7 @@ public class SeanceTable extends Table<Seance> {
 	private Seance sa;
 	private ArrayList<Seance> sc = new ArrayList<Seance>();
 
-	public SeanceTable(Connection connect) {
+	public SeanceTable(Connection connect) { //connexion 
 		super(connect);
 	}
 

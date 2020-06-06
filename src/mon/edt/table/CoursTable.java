@@ -15,7 +15,8 @@ public class CoursTable extends Table<Cours> {
 	private String prof;
 	private String salle;
 
-	public CoursTable(Connection connect) {
+	public CoursTable(Connection connect) { 
+		//connexion
 		super(connect);
 	}
 
