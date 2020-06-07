@@ -10,7 +10,7 @@ public class Etudiant {
 		this.utilisateur_id = utilisateur_id;
 	}
 
-	public Etudiant(int utilisateur_id, int numero, int groupe_id) {
+	public Etudiant(int utilisateur_id, int numero, int groupe_id) { //constructeur
 
 		this.utilisateur_id = utilisateur_id;
 		this.numero = numero;
