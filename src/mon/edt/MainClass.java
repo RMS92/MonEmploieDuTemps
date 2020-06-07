@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class MainClass extends Application {
-/
+
 	// define your offsets here
 	private double xOffset = 0;
 	private double yOffset = 0;
