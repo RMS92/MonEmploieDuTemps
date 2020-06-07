@@ -11,7 +11,7 @@ public class Salle {
 		
 	}
 	
-	public Salle(int id, String nom, int capacite, int site_id) {
+	public Salle(int id, String nom, int capacite, int site_id) { //constructeur
 		this.setId(id);
 		this.setNom(nom);
 		this.setCapacite(capacite);
