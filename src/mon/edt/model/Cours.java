@@ -5,7 +5,7 @@ public class Cours {
 	private int id;
 	private String nom;
 
-	public Cours(int id, String nom) {
+	public Cours(int id, String nom) { //constructeur
 		this.setId(id);
 		this.setNom(nom);
 	}
