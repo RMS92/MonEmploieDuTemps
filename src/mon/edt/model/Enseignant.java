@@ -9,7 +9,7 @@ public class Enseignant {
 		this.utilisateur_id = utilisateur_id;
 	}
 
-	public Enseignant(int utilisateur_id, int cours_id) {
+	public Enseignant(int utilisateur_id, int cours_id) { //constructeur
 
 		this.utilisateur_id = utilisateur_id;
 		this.cours_id = cours_id;

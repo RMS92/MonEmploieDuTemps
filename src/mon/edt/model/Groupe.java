@@ -10,7 +10,7 @@ public class Groupe {
 		
 	}
 	
-	public Groupe(int id, String nom, String promotionId) {
+	public Groupe(int id, String nom, String promotionId) { //constructeur
 		this.setId(id);
 		this.setNom(nom);
 		this.setPromotionId(promotionId);

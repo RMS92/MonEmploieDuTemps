@@ -22,7 +22,7 @@ public class Seance {
 		this.id = id;
 	}
 
-	public Seance(String nomRecap, int cours_idRecap) {
+	public Seance(String nomRecap, int cours_idRecap) { //constructeur
 		this.setNomRecap(nomRecap);
 		this.setCours_idRecap(cours_idRecap);
 	}
