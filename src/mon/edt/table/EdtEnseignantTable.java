@@ -113,7 +113,7 @@ public class EdtEnseignantTable extends Table<EdtColonne> {
 	public ArrayList<Seance> findSearchSalle(int semaine, String salle) { //recherche salle
 		
 
-		ss = new ArrayList<Seance>();
+		ss = new ArrayList<Seance>(); //aa
 
 		try {
 			PreparedStatement ps = this.connect.prepareStatement(
